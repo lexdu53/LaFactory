@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorator="~{templateadmin.html}">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Login Administration La Factory</title>
+	
+</head>
+<body>
+	<div layout:fragment="content">
+		<h1>test</h1>
+		<img th:src="@{arnaud.png}" alt="My face" height="42" width="42">
+		
+		<h2 th:utext="${message}">..!..</h2>
+	</div>
+</body>
+</html>

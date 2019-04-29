@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+      
+<head>
+	<meta charset="UTF-8"/>
+	<title>Administration La Factory</title>
+	
+	<link rel="stylesheet" type="text/css"
+   	href="../static/vendor/bootstrap/css/bootstrap.min.css"
+   	th:href="@{/vendor/bootstrap/css/bootstrap.min.css}"/>
+   
+	
+</head>
+<body>
+	<div layout:fragment="content"></div>
+	<header>
+		<div class="navbar navbar-default">
+			<div class="container-fluid">
+				<ul class="navbar navbar-nav">
+					<li><a th:href="@{/login}">Login</a> </li>
+					<li><a th:href="@{/login}">Test</a></li>
+					<li><a th:href="@{/login}">Test</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<section layout:fragment="content"></section>
+	<footer>
+		<div class="navbar-fixed-bottom">
+			<small>coucou</small>
+		</div>
+	</footer>
+</body>
+</html>
